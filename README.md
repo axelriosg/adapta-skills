@@ -1,18 +1,18 @@
 # Adapta Skills
 
-Coleção pública e experimental de Skills
+Coleção pública e experimental de Skills para a plataforma Adapta ONE, em português brasileiro.
 
 ## Sobre o repositório
 
-Este repositório reúne vinte Skills experimentais, desenvolvidas em contexto pessoal e profissional pelo mantenedor a partir de seu uso intensivo da plataforma Adapta ONE. As Skills cobrem casos de uso variados, abrangendo desde criação de slides e documentos até produção de vídeo, ingestão de conteúdo e análise estilística, e são disponibilizadas aqui em formato pronto para instalação.
+Este repositório reúne dezoito Skills experimentais, mais duas auxiliares aninhadas em suas Skills mãe, desenvolvidas em contexto pessoal e profissional pelo mantenedor a partir de seu uso intensivo da plataforma Adapta ONE. As Skills cobrem casos de uso variados, abrangendo desde criação de slides e documentos até produção de vídeo, ingestão de conteúdo e análise estilística, e são disponibilizadas aqui em formato pronto para instalação.
 
 Importa registrar que as Skills aqui presentes não constituem produto oficial da Adapta.org, não passaram por processo formal de validação ou homologação pela empresa, e não devem ser interpretadas como recomendação institucional. Trata-se de uma coleção experimental, compartilhada de forma aberta a título de referência e estudo, com base em práticas exploratórias.
 
 A documentação oficial sobre o que são Skills e como funcionam dentro da plataforma está disponível em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills).
 
 ## Catálogo
-<img width="1672" height="941" alt="Editedimage_1778248052734" src="https://github.com/user-attachments/assets/21db39a8-fd6d-4353-bb6b-3e32cb2d3e38" />
 
+<img width="1672" height="941" alt="Generatedimage_1778251761864" src="https://github.com/user-attachments/assets/abb93dd4-0f85-4519-9714-065897866b0f" />
 
 ### Meta
 
@@ -24,8 +24,7 @@ Skills que auxiliam na criação e refinamento de outras Skills.
 
 ### Apresentações
 
-- [adapta-slides](skills/adapta-slides), geração de apresentações em PPTX editável com PDF de preview integrado.
-- [adapta-slides-preview](skills/adapta-slides-preview) *(auxiliar)*, geração de preview HTML hospedado, utilizada em conjunto com adapta-slides.
+- [adapta-slides](skills/adapta-slides), geração de apresentações em PPTX editável com PDF de preview integrado. Acompanha a Skill auxiliar `adapta-slides-preview` (em `skills/adapta-slides/companions/adapta-slides-preview/`), que gera preview HTML hospedado.
 
 ### Documentos PDF
 
@@ -41,8 +40,7 @@ Skills que auxiliam na criação e refinamento de outras Skills.
 - [diagrama-em-video](skills/diagrama-em-video), vídeos animados em estilo line art com narração em português brasileiro e onze layouts disponíveis.
 - [vintage-video](skills/vintage-video), vídeos com estética de documentário antigo, utilizando shaders WebGL2 para grão, riscos, light leak e vinheta.
 - [crt-terminal-video](skills/crt-terminal-video), vídeos animados de terminal com efeito CRT, no estilo da documentação técnica contemporânea.
-- [video-3d-cinematico](skills/video-3d-cinematico), vídeos tridimensionais cinematográficos construídos com three.js, materiais PBR e pós-processamento.
-- [cinematografia-base](skills/cinematografia-base) *(auxiliar)*, infraestrutura compartilhada para as Skills de vídeo 3D.
+- [video-3d-cinematico](skills/video-3d-cinematico), vídeos tridimensionais cinematográficos construídos com three.js, materiais PBR e pós-processamento. Acompanha a Skill auxiliar `cinematografia-base` (em `skills/video-3d-cinematico/companions/cinematografia-base/`), que provê a infraestrutura compartilhada three.js.
 - [adapta-aula](skills/adapta-aula), micro-aulas em formato vertical 9:16 com voz humana sintetizada, legendas dinâmicas e ícones Lucide.
 - [adapta-video-editor](skills/adapta-video-editor), edição de vídeos diretamente do Google Drive via integração Composio e ffmpeg, com suporte a corte, concatenação, compressão, conversão de formato e extração de áudio.
 
@@ -62,9 +60,9 @@ Skills que auxiliam na criação e refinamento de outras Skills.
 
 ## Como instalar uma Skill
 
-A instalação de qualquer Skill deste repositório segue o procedimento padrão da plataforma, descrito em detalhe na documentação oficial em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills). Em resumo, basta abrir o Adapta ONE, acessar Configurações, ir em Skills, criar uma nova Skill, copiar o conteúdo do arquivo SKILL.md correspondente e colá-lo no editor. Após salvar e ativar, a Skill estará disponível para uso.
+A instalação de qualquer Skill deste repositório segue o procedimento padrão da plataforma, descrito em detalhe na documentação oficial em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills). Em resumo, basta abrir o Adapta ONE, ir em Skills, criar uma nova Skill, copiar o conteúdo do arquivo SKILL.md correspondente e colá-lo no editor. Após salvar e ativar, a Skill estará disponível para uso.
 
-Algumas Skills marcadas como *(auxiliar)* funcionam como dependências de outras. Recomenda-se instalar adapta-slides em conjunto com adapta-slides-preview, e video-3d-cinematico em conjunto com cinematografia-base, para que o fluxo completo opere conforme projetado.
+As Skills auxiliares estão aninhadas dentro da pasta da Skill mãe, em um subdiretório `companions/`. Elas funcionam como dependências e devem ser instaladas em conjunto com a Skill mãe para que o fluxo completo opere conforme projetado. Especificamente, `adapta-slides` deve ser instalada junto de `adapta-slides-preview`, e `video-3d-cinematico` deve ser instalada junto de `cinematografia-base`.
 
 ## Sobre a Adapta
 
