@@ -68,7 +68,7 @@ Algumas Skills marcadas como *(auxiliar)* funcionam como dependências de outras
 
 [Adapta.org](https://adapta.org) é a maior plataforma brasileira de educação em inteligência artificial generativa. As Skills publicadas neste repositório foram desenvolvidas no contexto do uso pessoal e profissional da plataforma pelo mantenedor, e são compartilhadas com a comunidade como referência aberta de natureza experimental, sem vínculo de produto ou endosso institucional formal.
 
-A manutenção deste repositório está a cargo de [Axel Rios](https://axelriosg.com), Head de Educação na Adapta.org.
+A manutenção deste repositório está a cargo de [Axel Rios](https://axelriosg.com).
 
 ## Licença
 
