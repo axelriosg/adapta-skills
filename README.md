@@ -1,6 +1,6 @@
 # Adapta Skills
 
-Coleção pública e experimental de Skills para a plataforma Adapta ONE, em português brasileiro.
+Coleção pública e experimental de Skills
 
 ## Sobre o repositório
 
