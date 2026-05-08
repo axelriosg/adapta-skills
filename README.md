@@ -1,10 +1,10 @@
 # Adapta Skills
 
-Coleção pública e experimental de Skills 
+Coleção pública e experimental de Skills para a plataforma Adapta ONE, em português brasileiro.
 
 ## Sobre o repositório
 
-Este repositório reúne dezenove Skills experimentais, desenvolvidas em contexto pessoal e profissional pelo mantenedor a partir de seu uso intensivo da plataforma Adapta ONE. As Skills cobrem casos de uso variados, abrangendo desde criação de slides e documentos até produção de vídeo, ingestão de conteúdo e análise estilística, e são disponibilizadas aqui em formato pronto para instalação.
+Este repositório reúne vinte Skills experimentais, desenvolvidas em contexto pessoal e profissional pelo mantenedor a partir de seu uso intensivo da plataforma Adapta ONE. As Skills cobrem casos de uso variados, abrangendo desde criação de slides e documentos até produção de vídeo, ingestão de conteúdo e análise estilística, e são disponibilizadas aqui em formato pronto para instalação.
 
 Importa registrar que as Skills aqui presentes não constituem produto oficial da Adapta.org, não passaram por processo formal de validação ou homologação pela empresa, e não devem ser interpretadas como recomendação institucional. Trata-se de uma coleção experimental, compartilhada de forma aberta a título de referência e estudo, com base em práticas exploratórias.
 
@@ -42,6 +42,7 @@ Skills que auxiliam na criação e refinamento de outras Skills.
 - [video-3d-cinematico](skills/video-3d-cinematico), vídeos tridimensionais cinematográficos construídos com three.js, materiais PBR e pós-processamento.
 - [cinematografia-base](skills/cinematografia-base) *(auxiliar)*, infraestrutura compartilhada para as Skills de vídeo 3D.
 - [adapta-aula](skills/adapta-aula), micro-aulas em formato vertical 9:16 com voz humana sintetizada, legendas dinâmicas e ícones Lucide.
+- [adapta-video-editor](skills/adapta-video-editor), edição de vídeos diretamente do Google Drive via integração Composio e ffmpeg, com suporte a corte, concatenação, compressão, conversão de formato e extração de áudio.
 
 ### Ingestão e análise
 
@@ -59,7 +60,7 @@ Skills que auxiliam na criação e refinamento de outras Skills.
 
 ## Como instalar uma Skill
 
-A instalação de qualquer Skill deste repositório segue o procedimento padrão da plataforma, descrito em detalhe na documentação oficial em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills). Em resumo, basta abrir o Adapta ONE, ir em Skills, criar uma nova Skill, copiar o conteúdo do arquivo SKILL.md correspondente e colá-lo no editor. Após salvar e ativar, a Skill estará disponível para uso.
+A instalação de qualquer Skill deste repositório segue o procedimento padrão da plataforma, descrito em detalhe na documentação oficial em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills). Em resumo, basta abrir o Adapta ONE, acessar Configurações, ir em Skills, criar uma nova Skill, copiar o conteúdo do arquivo SKILL.md correspondente e colá-lo no editor. Após salvar e ativar, a Skill estará disponível para uso.
 
 Algumas Skills marcadas como *(auxiliar)* funcionam como dependências de outras. Recomenda-se instalar adapta-slides em conjunto com adapta-slides-preview, e video-3d-cinematico em conjunto com cinematografia-base, para que o fluxo completo opere conforme projetado.
 
@@ -67,7 +68,7 @@ Algumas Skills marcadas como *(auxiliar)* funcionam como dependências de outras
 
 [Adapta.org](https://adapta.org) é a maior plataforma brasileira de educação em inteligência artificial generativa. As Skills publicadas neste repositório foram desenvolvidas no contexto do uso pessoal e profissional da plataforma pelo mantenedor, e são compartilhadas com a comunidade como referência aberta de natureza experimental, sem vínculo de produto ou endosso institucional formal.
 
-A manutenção deste repositório está a cargo de [Axel Rios](https://axelriosg.com)
+A manutenção deste repositório está a cargo de [Axel Rios](https://axelriosg.com), Head de Educação na Adapta.org.
 
 ## Licença
 
