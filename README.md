@@ -11,6 +11,7 @@ Importa registrar que as Skills aqui presentes não constituem produto oficial d
 A documentação oficial sobre o que são Skills e como funcionam dentro da plataforma está disponível em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills).
 
 ## Catálogo
+<img width="1672" height="941" alt="Editedimage_1778247850075" src="https://github.com/user-attachments/assets/6282f6c8-fb6d-4ee8-b04d-8deecb9a738d" />
 
 ### Meta
 
