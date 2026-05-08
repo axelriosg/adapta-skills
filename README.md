@@ -59,7 +59,7 @@ Skills que auxiliam na criação e refinamento de outras Skills.
 
 ## Como instalar uma Skill
 
-A instalação de qualquer Skill deste repositório segue o procedimento padrão da plataforma, descrito em detalhe na documentação oficial em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills). Em resumo, basta abrir o Adapta ONE, acessar Configurações, ir em Skills, criar uma nova Skill, copiar o conteúdo do arquivo SKILL.md correspondente e colá-lo no editor. Após salvar e ativar, a Skill estará disponível para uso.
+A instalação de qualquer Skill deste repositório segue o procedimento padrão da plataforma, descrito em detalhe na documentação oficial em [docs.adapta.org/inicio-rapido/skills](https://docs.adapta.org/inicio-rapido/skills). Em resumo, basta abrir o Adapta ONE, ir em Skills, criar uma nova Skill, copiar o conteúdo do arquivo SKILL.md correspondente e colá-lo no editor. Após salvar e ativar, a Skill estará disponível para uso.
 
 Algumas Skills marcadas como *(auxiliar)* funcionam como dependências de outras. Recomenda-se instalar adapta-slides em conjunto com adapta-slides-preview, e video-3d-cinematico em conjunto com cinematografia-base, para que o fluxo completo opere conforme projetado.
 
